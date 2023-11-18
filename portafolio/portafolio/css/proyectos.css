@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0c0d14;
+}
+
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    padding: 40px;
+}
+
+.grid-item {
+    position: relative;
+    height: 400px;
+    margin: 0;
+}
+
+.top-rectangle2 {
+    background-color: #c891ff;
+    height: 20px;
+}
+
+.top-rectangle1 {
+    background-color: #ff91de;
+    height: 20px;
+}
+
+.top-rectangle3 {
+    background-color: #73effd;
+    height: 20px;
+}
+
+.grid-image {
+    width: 100%;
+    height: 56%;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain; 
+
+}
+
+#img1.grid-image {
+    background-image: url(../img/7.png);
+    
+}
+
+#img1.grid-image:hover {
+    background-image: url(../img/1.png);
+}
+
+#img2.grid-image {
+    background-image: url(../img/11.png);
+}
+
+#img2.grid-image:hover {
+    background-image: url(../img/2.png);
+}
+
+#img3.grid-image {
+    background-image: url(../img/10.png);
+}
+
+#img3.grid-image:hover {
+    background-image: url(../img/3.png);
+}
+
+#img4.grid-image {
+    background-image: url(../img/9.png);
+}
+
+#img4.grid-image:hover {
+    background-image: url(../img/4.png);
+}
+
+#img6.grid-image {
+    background-image: url(../img/8.png);
+}
+
+#img6.grid-image:hover {
+    background-image: url(../img/6.png);
+}
+
+#img5.grid-image {
+    background-image: url(../img/12.png);
+}
+
+#img5.grid-image:hover {
+    background-image: url(../img/5.png);
+}

@@ -1,0 +1,32 @@
+.hero {
+    position: relative;
+    height: 100%;
+    padding: 1px;
+    color: white;
+}
+
+.hero h1 {
+    position: relative;
+    display: block;
+    margin: 8rem auto 5rem auto;
+    width: fit-content;
+    font-size: 124px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 10;
+}
+
+
+
+.hero p {
+    position: relative;
+    width: 80%;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: 24px;
+    font-family: 'Kanit', sans-serif;
+    z-index: 1;
+    color: white;
+}
+
+
+

@@ -1,0 +1,20 @@
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    grid-row-gap: 40px;
+    padding: 40px;
+}
+
+.item {
+    position: relative;
+    height: 600px;  
+}
+
+.grid-image1 {
+    width: 100%;
+    height: 70%;
+    display: block;
+
+}

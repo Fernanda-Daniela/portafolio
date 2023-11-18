@@ -1,0 +1,147 @@
+
+header{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+}
+nav {
+    background-color: #0c0d14 ;
+    padding: 10px 0;
+    
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    display: inline;
+    width: 14.28%;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #ff5fb7;
+}
+
+#footer {
+    background: #0c0d14;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    padding: 20px 0;
+    text-align: center;
+}
+
+h1, h2, h5 {
+    color: #ff5fb7;
+    margin-bottom: 40px;
+}
+
+
+p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #fff;
+}
+
+#inicio, #acerca, #habilidades, #proyectos, #contacto {
+    background-color:  #0c0d14 ;
+    ;
+}
+
+#contacto {
+    background-color: #0c0d14;
+    padding: 20px 0;
+    text-align: center;
+}
+.contact-box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+    
+}
+
+.contact-item {
+    box-sizing: border-box; 
+    width: 30%;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 0; 
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(233, 75, 141, 0.799);    
+}
+
+.contact-item h3 {
+    color: #c23181;
+}
+
+.contact-item a:hover {
+    color: #fff;
+    background-color: #ff5fb7;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.social-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.social-info img {
+    margin-bottom: 5px; 
+    height: 20px; 
+}
+
+#acerca {
+    background-color: #0c0d14;
+    padding: 20px;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse; 
+    justify-content: space-around; 
+}
+
+.text {
+    flex: 1;
+    text-align: justify;
+    margin-left: 20px;
+}
+
+.text h2 {
+    color: #ff5fb7;
+}
+
+.text p {
+    color: #f6ebeb;
+}
+
+.programas{
+    width: 16px;
+}
